@@ -1,2 +1,2 @@
 # Next50
-AL Extension Project for AlphaData
+AL Extension Project for Next50

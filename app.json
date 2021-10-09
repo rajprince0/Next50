@@ -1,0 +1,26 @@
+{
+  "id": "e5b3aab4-c25e-4c4c-b860-1f104276f1ec",
+  "name": "HRMS Extension",
+  "publisher": "NEXT50",
+  "version": "1.0.0.3",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "next50.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 60149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://HRMSNext50.com/help/",
+  "showMyCode": true,
+  "runtime": "7.2"
+}

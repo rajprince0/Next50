@@ -1,38 +1,38 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Your own server",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "OnPrem",
-            "server": "http://localhost",
-            "serverInstance": "BC180",
-            "authentication": "Windows",
-            "startupObjectId": 22,
-            "port": 18049,
-            "schemaUpdateMode": "ForceSync",
-            "startupObjectType": "Page",
-            "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "tenant": "default"
-        }
         // {
-        //     "name": "Microsoft cloud sandbox",
+        //     "name": "Your own server",
         //     "request": "launch",
         //     "type": "al",
-        //     "environmentType": "Sandbox",
-        //     "environmentName": "Next50development",
+        //     "environmentType": "OnPrem",
+        //     "server": "http://localhost",
+        //     "serverInstance": "BC180",
+        //     "authentication": "Windows",
         //     "startupObjectId": 22,
+        //     "port": 18049,
+        //     "schemaUpdateMode": "ForceSync",
         //     "startupObjectType": "Page",
         //     "breakOnError": true,
         //     "launchBrowser": true,
-        //     "tenant": "0f0272da-8d02-47ec-a111-650b928c6674",
-        //     "server": "https://businesscentral.dynamics.com/",
         //     "enableLongRunningSqlStatements": true,
-        //     "enableSqlInformationDebugger": true
+        //     "enableSqlInformationDebugger": true,
+        //     "tenant": "default"
         // }
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Next50development",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "tenant": "0f0272da-8d02-47ec-a111-650b928c6674",
+            "server": "https://businesscentral.dynamics.com/",
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
     ]
 }
